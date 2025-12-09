@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Home route
 app.get('/', (req, res) => {
-    res.send('Welcome to the WebApp Project!');
+    res.send('Welcome, Hello to the WebApp Project!');
 });
 
 // Start server
